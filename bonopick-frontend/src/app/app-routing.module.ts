@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ViewBonoPageComponent } from './views/view-bono-page/view-bono-page.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: 'view-bono', component: ViewBonoPageComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
